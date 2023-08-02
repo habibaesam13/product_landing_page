@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'don';
+    src: url(fonts/Knicknack\ Fuzzy\ Black.otf);
+}
+
+@font-face {
+    font-family: 'don2';
+    src: url(fonts/Knicknack\ Fuzzy\ Regular.otf);
+}
+
+body {
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFC9F8;
+    width: 100%;
+    height: auto;
+}
+
+nav img {
+    float: left;
+    margin-left: 15px;
+
+}
+
+.container {
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+    height: 35px; ;
+}
+
+nav ul {
+    text-align: end;
+    list-style: none;
+    margin: 0;
+    margin-top: -33px;
+    padding: 8px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+#bigimg {
+    margin-left: 60%;
+    width: 500px;
+    padding-left: 15px;
+
+}
+
+.mini {
+    margin-left: 60%;
+    width: 50px;
+    margin-top: 10px;
+
+}
+
+.photos {
+    padding-top: 0%;
+    height: 50px;
+}
+
+.componat {
+    max-width: 400px;
+    height: fit-content;
+    margin-left: 350px;
+    background-color: white;
+    border-radius: 45px;
+    height: 400px;
+}
+
+td {
+    padding-left: 40px;
+
+}
+
+.tr2 {
+    font-size: small;
+    color: rgb(104, 103, 103);
+}
+
+#hov:hover {
+    transform: scale(1.4);
+    transition: sec;
+    z-index: 102;
+}
+
+.ho:hover {
+
+
+    transform: scale(1.4);
+    transition: sec;
+    z-index: 102;
+}
+
+.others {
+    padding-left: 10%;
+}
+
+.pro {
+    width: 150px;
+    padding: 2%;
+    margin-top: 0%;
+}
+
+h5 {
+    padding-left: 23px;
+    font-family: cursive;
+
+}
+
+.lDec {
+    margin-left: 15px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.lDec a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.foot_des {
+    background-color: antiquewhite;
+    padding-top: 15px;
+  
+}
+.icons_foot{
+    padding: 15px;
+    display: inline-flex;
+    margin-left: 45%;
+}
+.icon{
+    width: 50px;
+}
